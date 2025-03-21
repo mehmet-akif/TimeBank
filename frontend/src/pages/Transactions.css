@@ -1,0 +1,100 @@
+.transactions-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.transaction-card {
+  background: white;
+  padding: 15px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.transaction-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.transaction-service {
+  font-style: italic;
+  color: #666;
+}
+
+.transaction-time {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.transaction-status {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.transaction-status.pending {
+  color: #856404;
+  background-color: #fff3cd;
+}
+
+.transaction-status.completed {
+  color: #155724;
+  background-color: #d4edda;
+}
+
+.transaction-status.canceled {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-group {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.button-container {
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
